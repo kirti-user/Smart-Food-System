@@ -16,6 +16,17 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 public class Payment {
+    // REVIEW REQUEST:
+// Act as a code reviewer for this entity class. Please check for:
+// 1. Logical flaws or potential bugs
+// 2. Security risks (e.g., sensitive fields, password handling)
+// 3. Performance or maintainability issues
+// 4. Proper use of annotations and relationships
+// For each issue, explain:
+// - Why it is a problem
+// - How to fix it
+// - Provide corrected code or best practices example
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
